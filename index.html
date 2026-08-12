@@ -472,7 +472,7 @@ function calendarChaos(){
       <div class="calendarScene">
         <div class="missionBox">😵 Zwei Wochentage wurden vertauscht. Finde sie!</div>
         <div class="weekStrip">
-          ${order.map((idx,pos)=>`<button class="weekTile" data-pos="${pos}" data-day="${idx}">${days[idx][0]}<span class="num">${days[idx][1]}</span></button>`).join("")}
+          ${order.map((idx,pos)=>`<button class="weekTile" data-pos="${pos}" data-day="${idx}">${days[idx][0]}</button>`).join("")}
         </div>
       </div>
       <div id="cf" class="feedback">Klicke die zwei vertauschten Tage nacheinander an.</div>`;
